@@ -1,5 +1,5 @@
 {
-  "name": "itsm.plus",
+  "name": "gridsome-starter-articles",
   "private": true,
   "scripts": {
     "build": "gridsome build",
