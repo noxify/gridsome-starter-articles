@@ -1,6 +1,8 @@
 <template>
-  <div>
-    
+
+  
+  <div class="sidebar-sticky">
+    <a name="content"></a>  
     <div class="d-block d-sm-block d-md-none d-lg-none d-xl-none">
     
       <ul class="list-inline mb-5">
@@ -65,7 +67,7 @@ import { each, uniq } from "lodash";
 export default {
   methods: {
     filterUrl(type, value) {
-      return `/resources/filter/${type}/${value}`;
+      return `/resources/filter/${type}/${value}#content`;
     }
   },
   computed: {

@@ -17,7 +17,7 @@
               />
             </b-row>
           </b-col>
-          <b-col>
+          <b-col class="pt-3">
             <Pagination
               :baseUrl="baseUrl(false,'','')"
               :currentPage="$page.records.pageInfo.currentPage"
