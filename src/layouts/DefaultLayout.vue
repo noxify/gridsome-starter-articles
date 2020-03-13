@@ -10,7 +10,7 @@
       <FooterPartial />
     </b-container>
     <ClientOnly>
-      <BackToTop :size=50 tabindex="0" :radius=5 :bottom=70 fg-color="#588191" bg-color="transparent" ripple-bg="transparent" box-shadow="0" weight="bold"></BackToTop>
+      <BackToTop :size=50 :radius=5 :tabindex=0 :bottom=70 fg-color="#588191" bg-color="transparent" ripple-bg="transparent" box-shadow="0" weight="bold"></BackToTop>
     </ClientOnly>
   </div>
 </template>

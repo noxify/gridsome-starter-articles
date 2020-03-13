@@ -340,14 +340,12 @@ img.bg-image {
     }
 
   }
-
+  
   .btn-outline-primary {
     &:hover {
       color: $white !important;
     }
   }
-
-
 
   .toc {
     .toc-item-level-2 {
@@ -392,6 +390,13 @@ img.bg-image {
       padding-left: 10px;
     }
   }
+
+  .sidebar-sticky {
+    top: 1rem;
+    margin:0;
+    @extend .position-sticky;
+  }
+  
 }
 
 
@@ -472,6 +477,12 @@ img.bg-image {
     div {
         border-right-width: 0px !important;
     }
+  }
+
+  .sidebar-sticky {
+    top:auto !important;
+    position: relative !important;
+
   }
 }
 

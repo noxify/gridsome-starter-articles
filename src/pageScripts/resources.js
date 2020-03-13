@@ -15,7 +15,7 @@ export default {
   },
 
   metaInfo() {
-    const suffix = (this.$route.params.type) ? ` by ${this.$route.params.type}: ${this.$route.params.title}` : ''
+    const suffix = (this.$route.params.type) ? ` by ${this.$route.params.type}: ${this.$route.params.title}` : '';
     return {
       title: `Resources${suffix}`
     };
