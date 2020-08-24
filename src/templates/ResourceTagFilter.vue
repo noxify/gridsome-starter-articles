@@ -36,20 +36,26 @@
 <script src="~/pageScripts/resources.js"></script>
 
 <page-query>
-  query($title: [String], $page:Int) {
-    records: allResource(filter:{tags:{contains:$title}},sortBy:"createdAt", order:DESC, perPage: 9, page: $page) @paginate {
-      totalCount
-      pageInfo {
-        totalPages
-        currentPage
-      }
-      edges {
-        node {
-          title, 
-          link,
-          excerpt
-        }
+query($title: [ID], $page: Int) {
+  records: allResource(
+    filter: { tags: { contains: $title } }
+    sortBy: "createdAt"
+    order: DESC
+    perPage: 9
+    page: $page
+  ) @paginate {
+    totalCount
+    pageInfo {
+      totalPages
+      currentPage
+    }
+    edges {
+      node {
+        title
+        link
+        excerpt
       }
     }
   }
+}
 </page-query>
