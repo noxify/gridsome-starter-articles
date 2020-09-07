@@ -1,3 +1,7 @@
+> # We have moved the Repository to https://github.com/jammeryhq
+> # * Tailwind CSS: https://github.com/jammeryhq/gridsome-starter-articles
+> # * Bootstrap: https://github.com/jammeryhq/gridsome-starter-articles-bootstrap
+
 # Gridsome Articles Starter
 
 Grisome starter ideal for articles/tutorials
